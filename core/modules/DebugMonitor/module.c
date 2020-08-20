@@ -1,0 +1,2 @@
+#include "$CurrentDir:missions\\ExpansionCOM.Valning\\core\\modules\\DebugMonitor\\CustomDebugMonitor.c"
+#include "$CurrentDir:missions\\ExpansionCOM.Valning\\core\\modules\\DebugMonitor\\gui\\DebugMonitor.c"
