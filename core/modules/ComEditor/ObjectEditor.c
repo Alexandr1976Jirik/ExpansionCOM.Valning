@@ -227,7 +227,7 @@ class ObjectEditor extends COM_Module
 		foreach( auto param : scene.m_SceneObjects )
 		{
 
-			Object object = GetGame().CreateObject( param.param1, param.param2, false, false );
+			Object object = GetGame().CreateObjectEx( param.param1, param.param2, ECE_CREATEPHYSICS | ECE_NOSURFACEALIGN ); //ChubbyTheGamer's Fix For Objects Dropping
 			object.SetOrientation( param.param3 );
 
 			m_Objects.Insert( object );
